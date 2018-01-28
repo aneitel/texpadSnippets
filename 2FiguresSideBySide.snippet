@@ -1,0 +1,20 @@
+% Displays 2 figures side by side with separate labels and captions
+% Needs \usepackage{graphicx}
+ctrl key = w
+group = Floating
+insert at cursor =
+\begin{figure}[hbt]
+\centering
+\begin{minipage}{0.49\textwidth}
+	\centering	
+  \includegraphics[scale=0.2]{images/}
+  \caption{}
+  \label{figure:}
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+	\centering
+  \includegraphics[scale=0.2]{images/}
+  \caption{}
+  \label{figure:}
+\end{minipage}
+\end{figure}

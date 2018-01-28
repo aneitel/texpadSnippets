@@ -1,0 +1,24 @@
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.fseventsd
+.Spotlight-V100
+
+# Ignore all existing snippets of the Texpad creators
+Bold.snippet
+Description.snippet
+Displaymath.snippet
+Enumerate.snippet
+Equation.snippet
+Verbatim.snippet
+Typewriter.snippet
+Tabular.snippet
+Quotation.snippet
+Itemize.snippet
+Italic.snippet
+Floating Table.snippet
+Preamble.snippet
+Matrix.snippet
+Figure.snippet

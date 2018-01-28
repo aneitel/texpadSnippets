@@ -1,0 +1,21 @@
+% A snippet to insert a floating figure that consists of more than one figure
+% Needs \usepackage{graphicx}
+% and \usepackage{subcaption}
+group = Floating
+insert at cursor =
+\begin{figure}[hbt]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \includegraphics[width=\textwidth]{}
+        \caption{}
+        \label{subfigure:}
+    \end{subfigure}
+    ~ % add some space between the images: ~, \hfill, \quad, \qquad, <blank line>, ...
+    \begin{subfigure}[b]{0.49\textwidth}
+        \includegraphics[width=\textwidth]{}
+        \caption{}
+        \label{subfigure:}
+    \end{subfigure}
+    \caption{<SELECTION>}
+    \label{figure:}
+\end{figure}
