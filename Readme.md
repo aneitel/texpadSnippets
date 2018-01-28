@@ -5,7 +5,7 @@ Starting with version 1.5, Texpad makes it easy to insert regularly used blocks 
 ## Required packages
 Some of the snippets require the usage of additonal packages in LaTeX:
 | Snippet                       | Package                           | 
-| ---------------------------- |:----------------------------------:| 
+| ---------------------------- | ---------------------------------- | 
 | 2FiguresSideBySide  | \usepackage{graphicx}      |
 | 2FiguresIn1               | \usepackage{graphicx}
                                       \usepackage{subcaption}  | 
